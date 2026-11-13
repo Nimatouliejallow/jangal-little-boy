@@ -1,61 +1,87 @@
-# Jangal Little Boy ☀️
+# Jangal Little Boy
 
-> **Jàngal** means *"to teach"* or *"to educate"* in Wolof (and *Jàng* means *"to learn"*).
+**An Interactive Early Learning Application for Young Children**
 
-**Jangal Little Boy** is an interactive, privacy-first, child-friendly educational platform designed for preschool learners (Ages 3–5). It helps children develop foundational knowledge in **English** and **Mathematics** through multi-sensory, joyful, positive reinforcement.
+## About the Project
 
----
+Jangal Little Boy is an interactive educational application designed to support early childhood learning for children aged 3–6.
 
-## 🌟 Key Features
+The application provides engaging learning activities that help children develop foundational skills through interactive exercises, visual learning, and audio guidance.
 
-### 1. English Adventures 🔤
-- **Alphabet & Phonics Explorer (A to Z):** Interactive letter cards with clear spoken letter names, phonics sounds (e.g., *"/æ/ for Apple"*), bouncy animations, and visible subtitles.
-- **First Words Match (CVC):** Practice reading 3-letter decodable words (e.g., `CAT`, `SUN`, `BUS`, `DOG`, `BED`, `CUP`, `HAT`, `PEN`) paired with illustrations.
+## Project Goals
 
-### 2. Math Explorations 🔢
-- **Counting 1 to 10:** Interactive tap-to-count items (stars, mangoes, drums, birds, fish) with 1-to-1 correspondence audio counting.
-- **Shapes & Colours Identifier:** Classifying 5 fundamental shapes (**Circle, Square, Triangle, Rectangle, Star**) across 5 distinct colors (**Red, Blue, Green, Yellow, Orange**).
+- Make early learning interactive and enjoyable.
+- Introduce children to English letters, words, numbers, and basic concepts.
+- Support word recognition and spelling development.
+- Encourage independent learning through guided activities.
+- Provide a simple and child-friendly learning experience.
 
-### 3. Child Safety & Privacy by Design 🔒
-- **Zero Personal Data:** Child's name is completely optional and defaults to *"Little Explorer"*. No tracking, cookies, or remote server storage.
-- **Accidental-Access Caregiver Barrier:** An arithmetic guard (*"2 + 3 = ?"*) prevents toddlers from accidentally exiting or wiping progress.
-- **Progress & Reset:** Stars earned per 5-item round. Caregivers can review completed activities and reset progress at any time.
+## Key Features
 
-### 4. Resilient Audio & Accessibility 🔊
-- **Native Web Speech API:** Spoken prompts with child-friendly pitch and pacing.
-- **Web Audio API Synthesizer:** Instant, zero-download bell chimes, fanfare chords, and gentle taps.
-- **Visible Subtitles:** Visual subtitle bar with replay button so learning continues smoothly even in muted or noisy rooms.
-- **Preserved Zoom:** Full browser pinch-to-zoom is preserved for low-vision accessibility.
+- Interactive learning activities.
+- Letter and phonics recognition.
+- Word recognition exercises.
+- Spelling activities.
+- Basic counting and number recognition.
+- Audio guidance and speech support.
+- Child learning profiles and progress tracking.
 
----
+## Technology Stack
 
-## 🛠️ Tech Stack
+The project uses the following technologies:
 
-- **Framework:** React 19 + Vite
-- **Styling:** Tailwind CSS v4
-- **State Management:** Lean Context API (`AppContext`) with safe LocalStorage and in-memory fallback
-- **Audio:** Browser SpeechSynthesis + Web Audio API
+- React – Frontend development.
+- JavaScript / TypeScript – Application logic.
+- Tailwind CSS – Styling and responsive design.
+- Browser Speech Synthesis – Audio guidance.
+- Local Storage – Local data persistence.
 
----
+*Note: Update this list to reflect the exact technologies and services used in the final implementation.*
 
-## 🚀 Getting Started
+## Project Architecture
 
-### Install Dependencies
-```bash
-npm install
-```
+Jangal Little Boy currently uses a frontend-based architecture, with application logic and data persistence handled on the client side.
 
-### Run Development Server
-```bash
-npm run dev
-```
+## Getting Started
 
-### Build for Production
-```bash
-npm run build
-```
+### Prerequisites
 
-### Lint Codebase
-```bash
-npm run lint
-```
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   `git clone YOUR_GITHUB_REPOSITORY_URL`
+
+2. Navigate into the project folder:
+
+   `cd jangal-little-boy`
+
+3. Install dependencies:
+
+   `npm install`
+
+4. Start the development server:
+
+   `npm run dev`
+
+5. Open the local URL provided in your terminal.
+
+## Future Improvements
+
+- Improve learning assessment and feedback.
+- Introduce adaptive learning activities.
+- Improve word recognition and spelling exercises.
+- Explore backend integration for persistent learning profiles.
+- Expand learning content and activities.
+
+## Project Status
+
+Currently under development.
+
+## Author
+
+Developed as a software engineering learning project.
