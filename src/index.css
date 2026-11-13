@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Comic Sans MS', 'Chalkboard SE', 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    background-color: #fffbeb; /* Warm gentle amber-50 background */
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-6deg); }
+  75% { transform: rotate(6deg); }
+}
+
+@keyframes pop {
+  0% { transform: scale(0.9); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+.animate-wiggle {
+  animation: wiggle 0.3s ease-in-out;
+}
+
+.animate-pop {
+  animation: pop 0.25s ease-out;
+}
+
+/* Custom shadow for tactile 3D kid buttons */
+.btn-tactile {
+  box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-tactile:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.15);
+}
