@@ -54,7 +54,7 @@ Jangal Little Boy currently uses a frontend-based architecture, with application
 
 1. Clone the repository:
 
-   `git clone YOUR_GITHUB_REPOSITORY_URL`
+   https://github.com/Nimatouliejallow/jangal-little-boy.git
 
 2. Navigate into the project folder:
 
@@ -83,5 +83,6 @@ Jangal Little Boy currently uses a frontend-based architecture, with application
 Currently under development.
 
 ## Author
+Nimatoulie Jallow
 
 Developed as a software engineering learning project.
